@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Вход
+  include messages
+  form(action="/login", method="post")
+    p
+      input(type="text", name="player[name]", placeholder="Имя")
+    p
+      input(type="password", name="player[pass]", placeholder="Пароль")
+    p
+      input(type="submit", value="Войти")

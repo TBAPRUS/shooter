@@ -1,0 +1,11 @@
+a.elem(href="/") Главная
+if locals.player
+  a.elem(href="/game") Играть
+  p.elem#score= "счёт: " + locals.player.score
+  p.elem#lvl= "уровень: " + locals.player.lvl
+  p.elem#money= "деньги: " + locals.player.money
+  p.elem= locals.player.name
+  a.elem(href="/logout") Выйти
+else
+  a.elem(href="/register") Регистрация
+  a.elem(href="/login") Вход

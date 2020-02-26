@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Oswald';
+}
+input {
+  font-family: 'Oswald';
+  margin: 5px 0 0 0;
+}
+button {
+  font-family: 'Oswald';
+}
+p {
+  font-size: 16;
+}
+#main-container {
+  width: 1080px;
+  min-height: 649px;;
+  height: auto;
+  margin: 2% auto;
+  padding: 0 0 1 0;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 3px #AAAAAA;
+  transition: all 1s ease;
+}
+#content {
+  padding: 0 30px;
+}

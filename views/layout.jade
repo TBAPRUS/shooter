@@ -1,0 +1,14 @@
+html
+  head
+    title Шутер
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Oswald&display=swap")
+    link(rel="stylesheet", href="/stylesheet/layout.css")
+    link(rel="stylesheet", href="/stylesheet/menu.css")
+    block style
+  body
+    #main-container
+      #menu
+        include menu
+      #content
+        block content
+    block script

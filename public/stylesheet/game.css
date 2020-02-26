@@ -1,0 +1,46 @@
+canvas {
+  box-shadow: inset 0 0 10px 3px #AAAAAA;
+  cursor: crosshair;
+  cursor: url(/images/cursor.png) 14 14, crosshair;
+}
+#logs {
+  width: 500px;
+  height: 500px;
+  float: right;
+}
+#log {
+  width: 480px;
+  height: 456px;
+  padding: 10px;
+  box-shadow: inset 0 0 10px 3px #AAAAAA;
+}
+textarea {
+  font-family: 'Oswald';
+  background-color: #FFFFFF;
+  border: 0;
+  width: 480px;
+  height: 456px;
+  resize: none;
+}
+input {
+  width: 430px;
+  margin: 0;
+}
+button {
+  width: 70px;
+}
+#upgrades {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.upgrade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888888;
+}
+.upgrade:hover {
+  color: #111111;
+  transition: all 0.3s ease;
+}
